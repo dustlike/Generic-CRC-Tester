@@ -1,0 +1,39 @@
+<Configuration> change these in code
+
+CRC_WIDTH
+  the width of CRC-x
+  allow 8~32
+
+POLYNOMIAL
+  the CRC divisor
+
+REFLECT_IO
+  set 1 to reflect the input and output
+
+INIT_VALUE
+  initial value of CRC
+
+XOR_MASK
+  XOR the result by what value
+
+
+<Commands>
+
+hexdecimal digits
+  input data
+
+?
+  dump data
+
+-
+  clear data
+
+#
+  calculate CRC
+
+&
+  print CRC lookup table
+
+@
+  calculate CRC, with lookup table
+  
