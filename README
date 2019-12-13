@@ -1,3 +1,6 @@
+A generic caculator for any CRC between 8-bit and 32-bit
+
+
 <Configuration> change these in code
 
 CRC_WIDTH
@@ -13,7 +16,7 @@ REFLECT_IO
 INIT_VALUE
   initial value of CRC
 
-XOR_MASK
+FINAL_XOR
   XOR the result by what value
 
 
